@@ -1,0 +1,27 @@
+			 : : : : : OWAZI CMS : : : : : : :
+
+
+                         : : : : : LOGIN DETAILS : : : : : 
+
+***THIS PROJECT IS NOT FOR COMMERCIAL USE****
+
+ADMIN PANEL LOGIN:
+
+>> NOTE : (for admin panel, login from the user's login)
+>>Enter the following details in Login for Admin Panel.
+
+Username: admin
+Password: root123
+
+DON'T FORGET TO CREATE A DATABASE NAMING "blog" AND IMPORT THE SQL FILE TO RUN.
+WITHOUT THE DATABASE THE PROJECT WON'T RUN.
+
+>>DATABASE FILE IS INSIDE "database" FOLDER!
+
+***** IF YOU FIND ANY ERRORS OR ANY PROBLEMS RELATED THIS PROGRAM, FEEL FREE TO CONTACT ME: en@neomoran.com *****  
+
+***** LEAVE A COMMENT IF YOU LOVED MY WORK *****
+
+***** FOR MORE PROJECTS :- https://neomoran.com *****
+
+#THANK YOU FOR DOWNLOADING
