@@ -1,0 +1,260 @@
+body{
+    cursor: default;
+}
+/* ======================================================================================
+        NAVBAR
+========================================================================================== */
+nav #nav li a {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+nav #nav li a:hover {
+    color: #1ab394;
+    font-weight: bold;
+    transition: .5s ease-in-out;
+}
+
+/* ==============================================================================================
+        BLOG-POST view-blog-post && comments + comment-box
+================================================================================================== */
+.postblog {
+    background: #fff;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    overflow: hidden;
+}
+
+.postblog .comment-hd{
+    color: #fff;
+    background: #656666;
+    border-left: 5px solid #1ab394;
+    /* border-radius: 3px; */
+    font-weight: bold;
+    padding: 5px 40px;
+    margin-left: 15px;
+}
+.postblog .c-m{
+    color: #656666;
+    background: #f1f8f7;
+    border-top-right-radius: 29px;
+    border-bottom-right-radius: 29px;
+    border-bottom-left-radius: 24px;
+    margin: 10px 15px;
+    padding: 10px;
+}
+.postblog .comment-title{
+    font-size: .9em;
+    font-weight: bolder;
+    font-style: italic;
+}
+.postblog .comment-body{
+    font-style: italic;
+}
+.postblog .form-name{
+    padding: 20px 10px 0 10px ;
+}
+.postblog .form-group{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.postblog .form-group label {
+    color: #0b8871;
+}
+.comment-p{
+    margin-bottom: -11px;
+    padding-left: 10px;
+}
+.comment {
+    color: #f5f5f5;
+    background: #0b8871;
+    margin-bottom: 50px;
+    padding: 6px 20px 6px 4px;
+    border-radius: 3px;
+}
+.postblog .f-a{
+    border: 2px solid #0b8871;
+    margin-bottom: 30px;
+}
+.postblog .btn-comment{
+    color: #f5f5f5;
+    background: #0b8871; 
+    margin-right: 15px; 
+    width: 30%
+}
+.postblog .btn-comment:hover{
+    background: #1ab394;
+}
+#heading {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #0b8871;
+}
+#heading:hover{
+    color: #1ab394;
+}
+.desc {
+    color: #333; 
+    margin: 10px 0px; 
+    font-weight: bold;
+    font-style: italic; 
+    font-family: 'Courier New', Courier, monospace;
+}
+.postbody {
+    font-size: 1.1em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: justify;
+}
+.postbody-viewpost {
+    font-weight: ;
+    font-size: 1.25em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+}
+
+/* if no post for a category or search */
+#no-cat-post {
+    border: 1px solid #bf2020; 
+    background: #fff;
+    color: #333;
+    padding:  30px; 
+    border-radius: 5px;
+}
+
+/* ==========================================================================================
+        SIDEBAR
+============================================================================================== */
+/* About me */
+.sidebar .about-me {
+    background: #fff;
+    margin-bottom: 40px;
+    /* border: 2px solid #333; */
+}
+
+.sidebar .about-me .me{
+    text-align: center;
+    padding: 5px;
+    background: #333;
+    color: #f1f8f7;
+    text-transform: uppercase;
+}
+
+.about-me .img{
+    padding-left: 25%;
+
+}
+
+.about-me .body h4 {
+    text-align: center;
+    font-weight: bolder;
+}
+
+.about-me .body p{
+    padding: 8px;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+/* Categories */
+.categories{
+    background: #fff;
+    margin-bottom: 40px;
+}
+.categories th{
+    padding: 5px;
+    background: #333;
+    color: #f1f8f7;
+    text-transform: uppercase;
+}
+
+.categories a{
+    text-decoration: none;
+    color: #333;
+    font-size: 1.1em;
+    font-weight: bolder;
+}
+
+
+.categories td:hover{
+    color: #0b8871;
+    font-weight: bold;
+}
+
+/* recent post */
+.recent-post .panel-heading{
+    background: #333;
+    color: #f1f8f7;
+    text-transform: uppercase;
+}
+
+
+.recent-post a{
+    color: #333;
+    text-decoration: none;
+}
+
+/* =================================================================
+            LOGIN PAGE
+====================================================================*/
+.row-login{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.login-page{
+    margin-top: 8%;
+    margin-bottom: 15%;
+    background: #fff;
+    border-radius: 3px;
+}
+.login {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+.login p{
+    color: #0b8871;
+    margin-bottom: 20px;
+}
+.login .FieldInfo{
+    color: #484b4e;
+}
+.login a{
+    text-decoration: none;
+}
+.login a:hover{
+    color: #0b8871;
+    font-weight: bolder;
+}
+
+/* ==============================================================================
+                    MEDIA QUERIES
+================================================================================= */
+
+@media only screen and (min-width: 810px){
+    
+.searchbtn {
+    position: relative;
+    z-index: 22;
+    margin-left: -15px;
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
